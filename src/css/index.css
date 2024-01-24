@@ -1,0 +1,59 @@
+.todo_container{
+    background-image: url('../assets/todo_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 15rem;
+    opacity: 0.3;
+}
+.todo_content_list div .todo_title  h3 {
+     color: var(--font-primary);
+     font-size: 1.5rem;
+}
+.todo_content_list{
+    width: 33%;
+    margin-bottom: 1rem;
+}
+.create_tasks {
+    background-color: var( --second-bg-color);
+    border-radius: .6rem;
+    box-shadow: 0 1px 1.5px 1px hsl(240,20%,11%);
+}
+
+.create_tasks input {
+    background-color: transparent;
+    border-radius: .5rem;
+    border: 1px solid #fff;
+    padding-left: .5rem;
+    color: #e2e2e2;
+
+}
+.update_task{
+    background-color: transparent;
+    border-radius: .5rem;
+    border: 1px solid #fff;
+    padding-left: .5rem;
+    color: #e2e2e2;
+}
+.todo_results_list{
+    background-color: var( --second-bg-color);
+    border-radius: .6rem;
+    box-shadow: 0 1px 1.5px 1px hsl(240,20%,11%);
+    width: 30%;
+}
+.action_result{
+    background-color: hsl(231, 24%, 16%);
+}
+.todo_results_list .results{
+    background-color: var( --second-bg-color);
+    padding: .8rem .6rem;
+    border-radius: .5rem;
+}
+.todo_results_list .results .right {
+   opacity: 0;
+   transition: all 0.5s ease-in;
+}
+.todo_results_list .results .right:hover{
+   opacity: 1;
+}

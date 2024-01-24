@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-bg-color:hsl(240, 18%, 12%);
+  --second-bg-color:hsl(232,25%,19%);
+  --font-primary:#e2e2e2;
+  --second-font-primary:#b1afaf;
+}
+body  {
+     height: 120vh;
+     background-color: var(--primary-bg-color);
+}
